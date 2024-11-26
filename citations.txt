@@ -1,0 +1,2 @@
+[1] "ROS2 Nav2 - Generate a Map with slam_toolbox - The Robotics Back-End", Roboticsbackend, Available: https://roboticsbackend.com/ros2-nav2-generate-a-map-with-slam_toolbox/. [Accessed 25 November. 2024].
+[2] "ros - Why can", Robotics, Available: https://robotics.stackexchange.com/questions/109897/why-cant-i-launch-the-navigation-stack-from-the-same-launch-file-as-the-simulat. [Accessed 25 November. 2024].
