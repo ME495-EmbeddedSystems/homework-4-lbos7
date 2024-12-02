@@ -10,7 +10,7 @@ setup(
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
-        ('share/' + package_name + '/launch', ['launch/manual_explore.launch.xml']),
+        ('share/' + package_name + '/launch', ['launch/manual_explore.launch.xml', 'launch/explore.launch.xml']),
         ('share/' + package_name + '/config', ['config/nubot_nav_params.yaml']),
         ('share/' + package_name + '/config', ['config/nubot_nav_rviz_config.rviz']),
     ],
