@@ -150,13 +150,13 @@ Visualization Manager:
         Filter size: 10
         History Policy: Keep Last
         Reliability Policy: Reliable
-        Value: /map
+        Value: /global_costmap/costmap
       Update Topic:
         Depth: 5
         Durability Policy: Volatile
         History Policy: Keep Last
         Reliability Policy: Reliable
-        Value: /map_updates
+        Value: /global_costmap/costmap_updates
       Use Timestamp: false
       Value: true
     - Alpha: 0.699999988079071
@@ -263,18 +263,18 @@ Visualization Manager:
         Swap Stereo Eyes: false
         Value: false
       Focal Point:
-        X: -4.32539176940918
-        Y: 2.574104070663452
-        Z: -2.7726669311523438
+        X: -4.3193559646606445
+        Y: 0.6191643476486206
+        Z: -1.1481503248214722
       Focal Shape Fixed Size: true
       Focal Shape Size: 0.05000000074505806
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 0.8653978705406189
+      Pitch: 1.0603978633880615
       Target Frame: <Fixed Frame>
       Value: Orbit (rviz)
-      Yaw: 1.8353968858718872
+      Yaw: 1.8603968620300293
     Saved: ~
 Window Geometry:
   Displays:
