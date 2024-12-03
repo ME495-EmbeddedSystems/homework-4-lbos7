@@ -18,7 +18,7 @@ setup(
     zip_safe=True,
     maintainer='Logan Boswell',
     maintainer_email='loganstuartboswell@gmail.com',
-    description='TODO: Package description',
+    description='ROS2 package for exploring a world in Gazebo and mapping it',
     license='GPLv3',
     tests_require=['pytest'],
     entry_points={
