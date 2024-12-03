@@ -1,2 +1,11 @@
-[1] "ROS2 Nav2 - Generate a Map with slam_toolbox - The Robotics Back-End", Roboticsbackend, Available: https://roboticsbackend.com/ros2-nav2-generate-a-map-with-slam_toolbox/. [Accessed 25 November. 2024].
-[2] "ros - Why can", Robotics, Available: https://robotics.stackexchange.com/questions/109897/why-cant-i-launch-the-navigation-stack-from-the-same-launch-file-as-the-simulat. [Accessed 25 November. 2024].
+Worked with: Harrison Bounds
+[1] "ROS2 Nav2 Tutorial - The Robotics Back-End", Roboticsbackend, Available: https://roboticsbackend.com/ros2-nav2-tutorial/. [Accessed 25 November. 2024].
+[2] "", Roroboticsbackend, Available: https://roroboticsbackend.com/ros2-nav2-generate-a-map-with-slam_toolbox/. [Accessed 25 November. 2024].
+[3] "ROS2 Nav2 - Generate a Map with slam_toolbox - The Robotics Back-End", Roboticsbackend, Available: https://roboticsbackend.com/ros2-nav2-generate-a-map-with-slam_toolbox/. [Accessed 25 November. 2024].
+[4] "ros - Why can", Robotics, Available: https://robotics.stackexchange.com/questions/109897/why-cant-i-launch-the-navigation-stack-from-the-same-launch-file-as-the-simulat. [Accessed 25 November. 2024].
+[5] "ros2 - Why robot not moving to a goal pose in Nav2 after map is created and pose is estimated? - Robotics Stack Exchange", Robotics, Available: https://robotics.stackexchange.com/questions/109985/why-robot-not-moving-to-a-goal-pose-in-nav2-after-map-is-created-and-pose-is-est. [Accessed 29 November. 2024].
+[6] "Topic Nav2 Goal from Rviz2 - General Support - The Construct ROS Community", Get-help, Available: https://get-help.theconstruct.ai/t/topic-nav2-goal-from-rviz2/23047. [Accessed 29 November. 2024].
+[7] "Nav2: Message Filter dropping message: frame - Robotics Stack Exchange", Robotics, Available: https://robotics.stackexchange.com/questions/107499/nav2-message-filter-dropping-message-frame. [Accessed 29 November. 2024].
+[8] "Frontier-Based Exploration", Web, Available: https://web.archive.org/web/20240416122134/robotfrontier.com/frontier/index.html. [Accessed 1 December. 2024].
+[9] "Frontier-Based Exploration: Detecting Frontiers", Web, Available: https://web.archive.org/web/20240421210909/robotfrontier.com/frontier/detect.html. [Accessed 1 December. 2024].
+[10] Harrison Bounds - discussed exploration algorithms [2 December. 2024]
