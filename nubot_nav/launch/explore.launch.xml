@@ -7,5 +7,11 @@
         <arg name="use_rviz" value="$(var use_rviz)"/>
         <arg name="world" value="$(var world)"/>
     </include>
+    
+    <node pkg="nubot_nav" exec="explore">
+        <remap from="map" to="map"/>
+        <remap from="cmd_vel" to="cmd_vel"/>
+        <remap from="goal_pose" to="goal_pose"/>
+    </node>
 
 </launch>
