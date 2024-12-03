@@ -39,20 +39,26 @@ class Explore(Node):
 
     def timer_callback(self):
         if (self.state == State.STOPPED) and (self.map != None):
-            goalpose = PoseStamped()
-            goalpose.header.frame_id = 'map'
-            goalpose.header.stamp = self.get_clock().now().to_msg()
-            goalpose.pose = Pose()
-            goalpose.pose.position = Point()
-            goalpose.pose.orientation = Quaternion()
-            new_x = random.uniform(self.map_min_x, self.map_max_x)
-            new_y = random.uniform(self.map_min_y, self.map_max_y)
-            goalpose.pose.position.x = new_x
-            goalpose.pose.position.y = new_y
-            # angle = math.atan2(self.map_min_y - new_y, self.map_min_x - new_x)
-            # goalpose.pose.orientation.w = math.cos(angle * .5)
-            # goalpose.pose.orientation.z = math.sin(angle * .5)
-            self.goal_pub.publish(goalpose)
+            index = random.randint(0, len(self.map.data) - 1)
+            if self.map.data[index] == -1:
+                goalpose = PoseStamped()
+                goalpose.header.frame_id = 'map'
+                goalpose.header.stamp = self.get_clock().now().to_msg()
+                goalpose.pose = Pose()
+                goalpose.pose.position = Point()
+                goalpose.pose.orientation = Quaternion()
+                # new_x = random.uniform(self.map_min_x, self.map_max_x)
+                # new_y = random.uniform(self.map_min_y, self.map_max_y)
+                new_x_cell = index % self.map_width
+                new_y_cell = math.floor(index / self.map_width)
+                new_x = self.map_min_x + new_x_cell * self.map_res
+                new_y = self.map_min_y + new_y_cell * self.map_res
+                goalpose.pose.position.x = new_x
+                goalpose.pose.position.y = new_y
+                # angle = math.atan2(self.map_min_y - new_y, self.map_min_x - new_x)
+                # goalpose.pose.orientation.w = math.cos(angle * .5)
+                # goalpose.pose.orientation.z = math.sin(angle * .5)
+                self.goal_pub.publish(goalpose)
         # elif self.state == State.MOVING:
         #     pass
         # pass
